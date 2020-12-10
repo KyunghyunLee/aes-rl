@@ -1,4 +1,5 @@
 {
+  "env_name": "HalfCheetah-v2",
   "algorithm": "AES-RL",
   "hidden": [400, 300],
   "lr": 1e-3,

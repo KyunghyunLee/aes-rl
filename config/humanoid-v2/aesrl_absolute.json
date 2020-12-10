@@ -1,4 +1,5 @@
 {
+  "env_name": "Humanoid-v2",
   "algorithm": "AES-RL",
   "hidden": [256, 256],
   "lr": 3e-4,

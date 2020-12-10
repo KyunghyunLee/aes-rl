@@ -1,4 +1,5 @@
 {
+  "env_name": "HalfCheetah-v2",
   "algorithm": "(1+1)-ES",
   "hidden": [400, 300],
   "lr": 1e-3,

@@ -1,4 +1,5 @@
 {
+  "env_name": "Ant-v2",
   "algorithm": "ACEM-RL",
   "hidden": [400, 300],
   "lr": 1e-3,

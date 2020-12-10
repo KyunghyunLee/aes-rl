@@ -1,4 +1,5 @@
 {
+  "env_name": "Ant-v2",
   "algorithm": "CEM-RL",
   "num_critic_worker": 0,
   "num_actor_worker": 1,

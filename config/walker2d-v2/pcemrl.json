@@ -1,4 +1,5 @@
 {
+  "env_name": "Walker2d-v2",
   "algorithm": "P-CEM-RL",
   "num_critic_worker": 0,
   "hidden": [400, 300],

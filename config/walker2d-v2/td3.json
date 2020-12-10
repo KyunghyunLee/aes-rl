@@ -1,4 +1,5 @@
 {
+  "env_name": "Walker2d-v2",
   "algorithm": "TD3",
   "num_critic_worker": 0,
   "num_actor_worker": 1,
