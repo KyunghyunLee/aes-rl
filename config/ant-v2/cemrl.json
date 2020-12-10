@@ -1,0 +1,15 @@
+{
+  "algorithm": "CEM-RL",
+  "num_critic_worker": 0,
+  "num_actor_worker": 1,
+  "hidden": [400, 300],
+  "lr": 1e-3,
+  "population_size": 10,
+  "cemrl_rl_population": 5,
+  "batch_size": 100,
+  "expl_noise": 0.1,
+  "policy_noise": 0.2,
+  "noise_clip": 0.5,
+  "replay_size": 1e6,
+  "max_timestep": 1e6
+}

@@ -1,0 +1,16 @@
+{
+  "algorithm": "AES-RL",
+  "hidden": [400, 300],
+  "lr": 1e-3,
+  "population_size": 0,
+  "aesrl_rl_ratio": 0.1,
+  "batch_size": 256,
+  "expl_noise": 0.2,
+  "policy_noise": 0.2,
+  "noise_clip": 0.5,
+  "replay_size": 2e5,
+  "max_timestep": 1e6,
+  "aesrl_mean_update_param": -48,
+  "aesrl_mean_update": "baseline-absolute",
+  "aesrl_var_update": "adaptive"
+}

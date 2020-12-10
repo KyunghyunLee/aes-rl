@@ -1,0 +1,13 @@
+{
+  "algorithm": "TD3",
+  "num_critic_worker": 0,
+  "num_actor_worker": 1,
+  "hidden": [256, 256],
+  "lr": 3e-4,
+  "batch_size": 256,
+  "expl_noise": 0.1,
+  "policy_noise": 0.2,
+  "noise_clip": 0.5,
+  "replay_size": 1e6,
+  "max_timestep": 1e6
+}
