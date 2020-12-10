@@ -100,15 +100,10 @@ def init_argument_parser():
             args_dict = json.load(f)
 
         for key in args_dict:
-            args.__setattr__(key, args_dict[key])
-            # if args.__getattribute__(key) == defaults[key]:
-            #     args.__setattr__(key, args_dict[key])
-            # else:
-            #     ok_flag = False
-            #     print(prAuto(f'[ERROR] Value conflict for key "{key}" in config file. '
-            #                  f'From args: ({args.__getattribute__(key)}), '
-            #                  f'from config: ({args_dict[key]}), '
-            #                  f'default: ({defaults[key]})'))
+            if args.__getattribute__(key) == defaults[key]:
+                args.__setattr__(key, args_dict[key])
+            else:
+                continue
 
     return args, ok_flag
 
