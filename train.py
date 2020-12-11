@@ -210,7 +210,8 @@ def main(args):
     algorithm.assign_workers(critic_workers, actor_workers)
 
     algorithm.learn()
-
+    for worker in critic_workers + actor_workers:
+        ray.kill(worker)
 
 if __name__ == '__main__':
     args, ok_flag = init_argument_parser()
