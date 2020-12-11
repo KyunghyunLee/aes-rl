@@ -1,6 +1,6 @@
 # An Efficient Asynchronous Method for Integrating Evolutionary and Gradient-based Policy Search
 
-This repository is the official implementation of [An Efficient Asynchronous Method for Integrating Evolutionary and Gradient-based Policy Search](https://papers.nips.cc/paper/2020/file/731309c4bb223491a9f67eac5214fb2e-Paper.pdf). 
+This repository is the official implementation of [An Efficient Asynchronous Method for Integrating Evolutionary and Gradient-based Policy Search](https://arxiv.org/abs/2012.05417). 
 > This repository is a reimplemented version for the public because the original source code is hard to follow.  
 There may be an un-fixed bug in the reimplementation process.  
 If you find one, please leave the issue. 
