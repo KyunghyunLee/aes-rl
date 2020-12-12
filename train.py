@@ -15,6 +15,7 @@ import ray
 
 import git
 import GPUtil
+import time
 
 from torch.utils.tensorboard import SummaryWriter
 
@@ -212,6 +213,7 @@ def main(args):
     algorithm.learn()
     for worker in critic_workers + actor_workers:
         ray.kill(worker)
+    time.sleep(5)
 
 if __name__ == '__main__':
     args, ok_flag = init_argument_parser()

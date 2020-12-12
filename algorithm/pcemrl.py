@@ -211,7 +211,7 @@ class PCemrlAlgorithm(Algorithm):
                     eval_steps += episode_t
                     episode_count += 1
 
-                    self.summary.add_scalar('train/mu', episode_reward, total_steps)
+                    self.summary.add_scalar('train/individuals', episode_reward, total_steps)
                     if episode_reward > max_reward:
                         max_reward = episode_reward
                         self.summary.add_scalar('train/max', max_reward, total_steps)
